@@ -7,6 +7,7 @@ on:
 
 env:
   BASE_IMAGE: openpilot-base
+  SIM_IMAGE: openpilot-sim
   DOCKER_REGISTRY: ghcr.io/commaai
   AZURE_TOKEN: ${{ secrets.AZURE_COMMADATACI_OPENPILOTCI_TOKEN }}
 
